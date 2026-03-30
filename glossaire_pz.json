@@ -1,0 +1,1741 @@
+{
+  "version": "2.1.0",
+  "date": "2026-03-24",
+  "source": "VAULT VISION/-...GLOSSAIRE/01_GLOSSAIRE_PRINCIPAL/GLOSS_glossaire_definitions.md",
+  "schema": {
+    "id": "slug kebab-case",
+    "terme": "nom affichage",
+    "aliases": "noms alternatifs",
+    "definition_courte": "1-2 phrases",
+    "definition": "definition complete",
+    "pilier": "PZ|ETH|GQ|CONSCIENCE|OSS|A#|INT|PG|MT|MC",
+    "categorie": "ontologie|physique|geometrie|dynamique|conscience|computation|mathematique|application|epistemologie",
+    "relations": "IDs concepts lies",
+    "excel_id": "ID du systeme hierarchique (PZ001, EF001...)",
+    "proprietes": "dict de proprietes geometriques",
+    "ile": "ile conceptuelle (Ile Origine, Ile Fluidite...)",
+    "type_lien_special": "Teleporteur|Pont|Trou de Ver|Croisement|Rallongement",
+    "tensor": "dict {security, coherence, resonance, saturation, dimension_f}",
+    "tensor_category": "ONTOLOGIE|SECURITE|FLUX|COHERENCE|LINGUISTIQUE|PATHOLOGIE|META"
+  },
+  "termes": [
+    {
+      "id": "analogie-topologique",
+      "terme": "Analogie Topologique",
+      "aliases": [],
+      "definition_courte": "Structures spatiales pour expliquer des phenomenes non geometriques.",
+      "definition": "Utilisation de structures et de transformations spatiales pour expliquer des phenomenes non geometriques mais partageant des caracteristiques structurelles similaires.",
+      "pilier": "GQ",
+      "categorie": "geometrie",
+      "relations": [
+        "geometrie-qualitative",
+        "geometrie-ubiquitaire",
+        "dimensions-qualitatives",
+        "sphere-inverse",
+        "topologie-non-euclidienne",
+        "univers-chiffonne",
+        "connexions-topologiques"
+      ],
+      "categorie_principale_excel": "Univers Chiffonné"
+    },
+    {
+      "id": "architecture-neguentropique",
+      "terme": "Architecture Neguentropique",
+      "aliases": [],
+      "definition_courte": "Croissance fractale auto-similaire, materiaux a memoire topologique.",
+      "definition": "Principes : Croissance fractale auto-similaire, materiaux a memoire topologique, structures vivantes en resonance etherique.",
+      "pilier": "PZ",
+      "categorie": "ontologie",
+      "relations": [
+        "neguentropie",
+        "patterns-recursifs",
+        "ether-fluidique"
+      ],
+      "categorie_principale_excel": "Général/Autre"
+    },
+    {
+      "id": "auto-organisation",
+      "terme": "Auto-organisation",
+      "aliases": [],
+      "definition_courte": "Capacite d'un systeme a acquerir spontanement structure et fonctionnalite complexes sans controle externe.",
+      "definition": "Capacite inherente d'un systeme a acquerir spontanement une structure et une fonctionnalite complexes sans controle externe. Moteur fondamental par lequel le potentiel infini du Point Zero se manifeste.",
+      "pilier": "OSS",
+      "categorie": "dynamique",
+      "relations": [
+        "intelligence-idiopathique",
+        "point-zero",
+        "cascades-emergence",
+        "complexite-emergente",
+        "neguentropie",
+        "champs-convectionnels",
+        "champs-coherence",
+        "champ-morphique",
+        "intemple",
+        "loi-action",
+        "perte-de-controle",
+        "syntonie",
+        "tensegrite",
+        "memoire-cinetique"
+      ],
+      "categorie_principale_excel": "Point Zéro; Émergence/Organisation"
+    },
+    {
+      "id": "cascades-emergence",
+      "terme": "Cascades d'Emergence",
+      "aliases": [
+        "Cascade Emergence",
+        "Cascade Ontologique"
+      ],
+      "definition_courte": "Deploiement en niveaux successifs de la realite, engendrant de nouvelles proprietes.",
+      "definition": "Phenomene de deploiement en niveaux successifs et arborescent de la realite. Prend sa source dans le Point Zero par intrajection, guidee par l'Intelligence Idiopathique.",
+      "pilier": "PZ",
+      "categorie": "dynamique",
+      "relations": [
+        "point-zero",
+        "intrajection",
+        "ether-fluidique",
+        "intelligence-idiopathique",
+        "emergence-qualitative",
+        "loi-action",
+        "auto-organisation",
+        "complexite-emergente",
+        "diffraction-creative"
+      ]
+    },
+    {
+      "id": "champs-convectionnels",
+      "terme": "Champs Convectionnels",
+      "aliases": [
+        "Champ Convectionnel"
+      ],
+      "definition_courte": "Dynamique d'echange et redistribution dans un milieu fluide.",
+      "definition": "Dynamique d'echange et de redistribution d'energie, de matiere ou d'information dans un milieu fluide ou interactionnel.",
+      "pilier": "ETH",
+      "categorie": "physique",
+      "relations": [
+        "ether-fluidique",
+        "milieu-interactionnel",
+        "auto-organisation"
+      ],
+      "categorie_principale_excel": "Émergence/Organisation"
+    },
+    {
+      "id": "champs-coherence",
+      "terme": "Champs de Coherence",
+      "aliases": [
+        "Champ Coherence"
+      ],
+      "definition_courte": "Domaine d'influence non local emanant de l'Intelligence Idiopathique.",
+      "definition": "Domaine d'influence non local et qualitatif, emanant de l'Intelligence Idiopathique et se propageant a travers l'Ether Fluidique.",
+      "pilier": "OSS",
+      "categorie": "dynamique",
+      "relations": [
+        "intelligence-idiopathique",
+        "ether-fluidique",
+        "auto-organisation",
+        "syntonie",
+        "champ-morphique",
+        "resonance-harmonique",
+        "tensegrite"
+      ],
+      "categorie_principale_excel": "Éther Fluidique; Émergence/Organisation; Structure/Relation"
+    },
+    {
+      "id": "champ-morphique",
+      "terme": "Champ Morphique",
+      "aliases": [],
+      "definition_courte": "Champs d'influence guidant l'emergence de formes similaires a differentes echelles.",
+      "definition": "Structures ou patterns d'organisation pouvant exister et se propager sous forme de champs d'influence, independamment de la matiere physique.",
+      "pilier": "OSS",
+      "categorie": "dynamique",
+      "relations": [
+        "champs-coherence",
+        "resonance-echelle",
+        "auto-organisation",
+        "patterns-recursifs"
+      ],
+      "categorie_principale_excel": "Émergence/Organisation"
+    },
+    {
+      "id": "champ-scalaire",
+      "terme": "Champ Scalaire (Dimension Zero)",
+      "aliases": [
+        "Champ Scalaire"
+      ],
+      "definition_courte": "Champ d'intensites qualitatives pures, differenciations avant emergence spatiale.",
+      "definition": "Champ d'intensites qualitatives pures ou de potentialites non encore deployees spatialement.",
+      "pilier": "PZ",
+      "categorie": "ontologie",
+      "relations": [
+        "point-zero",
+        "dimension-zero",
+        "dimensions-qualitatives"
+      ]
+    },
+    {
+      "id": "complexite-emergente",
+      "terme": "Complexite Emergente",
+      "aliases": [],
+      "definition_courte": "Apparition de structures qualitativement nouvelles par auto-organisation.",
+      "definition": "Apparition de structures qualitativement nouvelles au sein d'un systeme, resultant de l'auto-organisation et des interactions non lineaires.",
+      "pilier": "PZ",
+      "categorie": "dynamique",
+      "relations": [
+        "auto-organisation",
+        "emergence-qualitative",
+        "perte-de-controle",
+        "cascades-emergence",
+        "diffraction-creative",
+        "matrice-reflective"
+      ],
+      "categorie_principale_excel": "Émergence/Organisation"
+    },
+    {
+      "id": "computation-qualitative",
+      "terme": "Computation Qualitative",
+      "aliases": [],
+      "definition_courte": "Alternative computationnelle : valeurs contextuelles, logique fluide, calculs par resonance.",
+      "definition": "Alternative dynamique et organique aux modeles numeriques binaires. Valeurs relatives, logique fluide, calculs par resonance.",
+      "pilier": "GQ",
+      "categorie": "computation",
+      "relations": [
+        "logique-fluide",
+        "intelligence-idiopathique",
+        "geometrie-qualitative",
+        "dimensions-qualitatives",
+        "intemple",
+        "teleportation-conceptuelle",
+        "n-spin",
+        "memoire-cinetique"
+      ],
+      "categorie_principale_excel": "Computation Qualitative; Émergence/Organisation",
+      "excel_id": "CQ001",
+      "proprietes": {
+        "mode": "non-linéaire",
+        "opérateur": "traitement informationnel"
+      },
+      "tensor": {
+        "security": 0.8,
+        "coherence": 1.0,
+        "resonance": 0.8,
+        "saturation": 0.0,
+        "dimension_f": 0.0
+      },
+      "tensor_category": "ONTOLOGIE"
+    },
+    {
+      "id": "conscience-nodale",
+      "terme": "Conscience Nodale",
+      "aliases": [],
+      "definition_courte": "Identite individuelle localisee experimentant une multiplicite de facettes.",
+      "definition": "L'identite individuelle localisee, l'unite biologique humaine dans sa diversite d'expressions.",
+      "pilier": "CONSCIENCE",
+      "categorie": "conscience",
+      "relations": [
+        "unimultiplicite",
+        "presence",
+        "relation-forme-conscience",
+        "involution",
+        "tenseur-cognitif",
+        "volution",
+        "conscience-meta-organe",
+        "psychologie-gestationnaire",
+        "ego-incarne",
+        "memoire-cinetique",
+        "ecologie-ame"
+      ],
+      "categorie_principale_excel": "Conscience/Volution",
+      "tensor": {
+        "security": 0.6,
+        "coherence": 0.9,
+        "resonance": 0.9,
+        "saturation": 0.1,
+        "dimension_f": 0.0
+      },
+      "tensor_category": "ONTOLOGIE"
+    },
+    {
+      "id": "contre-forme",
+      "terme": "Contre-forme",
+      "aliases": [
+        "Forme-Contre-forme"
+      ],
+      "definition_courte": "Entite complementaire definissant les limites d'une forme, qualitative a part entiere.",
+      "definition": "Espace ou entite complementaire qui definit les limites et l'environnement d'une forme. Entite qualitative a part entiere.",
+      "pilier": "PZ",
+      "categorie": "ontologie",
+      "relations": [
+        "relation-forme-contre-forme",
+        "modulations-fantomes",
+        "dimensions-qualitatives",
+        "relation-forme-conscience"
+      ],
+      "categorie_principale_excel": "Structure/Relation"
+    },
+    {
+      "id": "diffraction-creative",
+      "terme": "Diffraction Creative",
+      "aliases": [],
+      "definition_courte": "Deploiement d'une idee en multitude de variations et ramifications.",
+      "definition": "Processus par lequel une idee se deploie en une multitude de variations, enrichissant la complexite. Peut mener a une Perte de Controle.",
+      "pilier": "A#",
+      "categorie": "dynamique",
+      "relations": [
+        "perte-de-controle",
+        "complexite-emergente",
+        "cascades-emergence",
+        "diabole"
+      ],
+      "categorie_principale_excel": "Processus/Dynamique"
+    },
+    {
+      "id": "dimension-zero",
+      "terme": "Dimension Zero",
+      "aliases": [],
+      "definition_courte": "Absence de dimension mesurable mais capacite infinie de contenance qualitative.",
+      "definition": "Condition fondamentale du Point Zero, caracterisee par une absence de dimension mesurable mais une capacite infinie de contenance qualitative.",
+      "pilier": "PZ",
+      "categorie": "ontologie",
+      "relations": [
+        "point-zero",
+        "intrajection",
+        "champ-scalaire",
+        "dimensions-qualitatives",
+        "projection",
+        "tenseurs-dimensionnels",
+        "unimultiplicite",
+        "inepuisabilite",
+        "primaute-relation"
+      ],
+      "categorie_principale_excel": "Point Zéro"
+    },
+    {
+      "id": "dimensions-qualitatives",
+      "terme": "Dimensions Qualitatives",
+      "aliases": [],
+      "definition_courte": "Axes de differenciation bases sur le sens et les relations, sans mesure metrique.",
+      "definition": "Axes de differenciation bases sur le sens, les relations et les proprietes intrinseques, structurant la realite sans mesure metrique.",
+      "pilier": "GQ",
+      "categorie": "geometrie",
+      "relations": [
+        "geometrie-qualitative",
+        "dimension-zero",
+        "tenseurs-dimensionnels",
+        "analogie-topologique",
+        "champ-scalaire",
+        "computation-qualitative",
+        "contre-forme",
+        "existence",
+        "geometrie-ubiquitaire",
+        "matrice-reflective",
+        "modulations-fantomes",
+        "nombres-hypervolumiques",
+        "relation-forme-contre-forme",
+        "rupture-epistemologique",
+        "sphere-inverse",
+        "tenseur-gravitationnel",
+        "tenseur-taille",
+        "topologie-non-euclidienne"
+      ],
+      "categorie_principale_excel": "Géométrie Qualitative"
+    },
+    {
+      "id": "emergence-qualitative",
+      "terme": "Emergence Qualitative",
+      "aliases": [
+        "Emergence"
+      ],
+      "definition_courte": "Saut qualitatif ou le tout devient plus que la somme de ses parties.",
+      "definition": "Apparition de nouvelles proprietes non reductibles a la somme de leurs parties.",
+      "pilier": "PZ",
+      "categorie": "dynamique",
+      "relations": [
+        "cascades-emergence",
+        "complexite-emergente",
+        "sauts-dimensionnels",
+        "transformation-qualitative",
+        "processus-transformation"
+      ],
+      "categorie_principale_excel": "Émergence/Organisation"
+    },
+    {
+      "id": "ether-fluidique",
+      "terme": "Ether Fluidique",
+      "aliases": [
+        "Ether Fluide"
+      ],
+      "definition_courte": "Substrat primordial de toute realite, fluide hyperfluide constituant vide, espace, matiere et gravite.",
+      "definition": "Substrat primordial de toute realite, fluide hyperfluide oscillant a des frequences infiniment rapides. Constitue le vide, l'espace, la matiere et la gravite.",
+      "pilier": "ETH",
+      "categorie": "physique",
+      "relations": [
+        "ether-vertical",
+        "ether-horizontal",
+        "torsion-vectorielle",
+        "milieu-interactionnel",
+        "pilier-primordial",
+        "intelligence-idiopathique",
+        "architecture-neguentropique",
+        "cascades-emergence",
+        "champs-convectionnels",
+        "champs-coherence",
+        "rupture-epistemologique",
+        "tenseur-gravitationnel",
+        "mementum",
+        "machine-temporelle",
+        "sphere-temporelle",
+        "tensegrite",
+        "pilier-de-marbre",
+        "perception-vibratoire"
+      ],
+      "categorie_principale_excel": "Éther Fluidique",
+      "tensor": {
+        "security": 0.5,
+        "coherence": 0.7,
+        "resonance": 1.0,
+        "saturation": 0.2,
+        "dimension_f": 0.1
+      },
+      "tensor_category": "ONTOLOGIE"
+    },
+    {
+      "id": "ether-horizontal",
+      "terme": "Ether Horizontal",
+      "aliases": [
+        "QUANTA"
+      ],
+      "definition_courte": "Plan de manifestation (QUANTA), la realite spatio-temporelle mesurable.",
+      "definition": "Plan de manifestation (QUANTA), la realite spatio-temporelle mesurable, ou l'ether vertical se convertit par torsions vectorielles.",
+      "pilier": "ETH",
+      "categorie": "physique",
+      "relations": [
+        "ether-vertical",
+        "ether-fluidique",
+        "torsion-vectorielle",
+        "quanta",
+        "dualite-vectorielle"
+      ],
+      "categorie_principale_excel": "Éther Fluidique"
+    },
+    {
+      "id": "ether-vertical",
+      "terme": "Ether Vertical",
+      "aliases": [
+        "QUALITA"
+      ],
+      "definition_courte": "Flux de potentialite pure (QUALITA), dimension transcendante.",
+      "definition": "Flux de potentialite pure (QUALITA), dimension transcendante, frequences indefinissables. Il nourrit l'ether horizontal.",
+      "pilier": "ETH",
+      "categorie": "physique",
+      "relations": [
+        "ether-horizontal",
+        "ether-fluidique",
+        "torsion-vectorielle",
+        "qualita",
+        "pilier-primordial",
+        "dualite-vectorielle"
+      ],
+      "categorie_principale_excel": "Point Zéro; Éther Fluidique"
+    },
+    {
+      "id": "existence",
+      "terme": "Existence",
+      "aliases": [],
+      "definition_courte": "Realite fondamentale et multidimensionnelle d'une entite.",
+      "definition": "Realite fondamentale et multidimensionnelle d'une entite, sa constitution intrinseque. Realite subdivisible pouvant se manifester sur plusieurs plans.",
+      "pilier": "PZ",
+      "categorie": "ontologie",
+      "relations": [
+        "presence",
+        "geometrie-ubiquitaire",
+        "dimensions-qualitatives"
+      ],
+      "categorie_principale_excel": "Processus/Dynamique"
+    },
+    {
+      "id": "geometrie-qualitative",
+      "terme": "Geometrie Qualitative",
+      "aliases": [
+        "GQ"
+      ],
+      "definition_courte": "Geometrie des relations de sens et structures profondes, depassant la metrique.",
+      "definition": "Relations de sens et structures profondes de la realite, depassant la metrique. Un point peut contenir un univers de relations.",
+      "pilier": "GQ",
+      "categorie": "geometrie",
+      "relations": [
+        "dimensions-qualitatives",
+        "analogie-topologique",
+        "computation-qualitative",
+        "matrice-reflective",
+        "logique-fluide",
+        "nombres-hypervolumiques",
+        "rupture-epistemologique",
+        "sphere-inverse",
+        "teleportation-conceptuelle",
+        "tenseur-taille",
+        "topologie-non-euclidienne",
+        "univers-chiffonne",
+        "primaute-relation",
+        "n-spin"
+      ],
+      "categorie_principale_excel": "Géométrie Qualitative"
+    },
+    {
+      "id": "geometrie-ubiquitaire",
+      "terme": "Geometrie Ubiquitaire",
+      "aliases": [],
+      "definition_courte": "Forme ayant realite sur plusieurs niveaux simultanement.",
+      "definition": "Une forme peut avoir une realite sur plusieurs niveaux simultanement, sans limitation spatiale unique.",
+      "pilier": "GQ",
+      "categorie": "geometrie",
+      "relations": [
+        "existence",
+        "dimensions-qualitatives",
+        "resonance-echelle",
+        "analogie-topologique"
+      ],
+      "categorie_principale_excel": "Univers Chiffonné; Processus/Dynamique"
+    },
+    {
+      "id": "intelligence-idiopathique",
+      "terme": "Intelligence Idiopathique",
+      "aliases": [],
+      "definition_courte": "Auto-organisation spontanee, intelligence inherente a la trame de la realite.",
+      "definition": "Principe d'auto-organisation spontanee sans intervention consciente exterieure. Intelligence inherente a la trame de la realite, propriete de l'ether fluidique.",
+      "pilier": "OSS",
+      "categorie": "ontologie",
+      "relations": [
+        "auto-organisation",
+        "ether-fluidique",
+        "champs-coherence",
+        "neguentropie",
+        "cascades-emergence",
+        "computation-qualitative",
+        "intemple",
+        "pilier-primordial",
+        "diabole",
+        "memoire-cinetique",
+        "pilier-de-marbre"
+      ],
+      "categorie_principale_excel": "Éther Fluidique; Émergence/Organisation",
+      "excel_id": "II001",
+      "proprietes": {
+        "nature": "distribuée",
+        "opérateur": "auto-organisation",
+        "cinétique": "émergente"
+      },
+      "tensor": {
+        "security": 0.8,
+        "coherence": 1.0,
+        "resonance": 0.9,
+        "saturation": 0.0,
+        "dimension_f": 0.0
+      },
+      "tensor_category": "ONTOLOGIE"
+    },
+    {
+      "id": "intemple",
+      "terme": "INTemple / INTempts",
+      "aliases": [
+        "INTemple",
+        "INTempts",
+        "INTempt"
+      ],
+      "definition_courte": "Espace mental ou les idees (INTempts) s'agencent spontanement en structures coherentes.",
+      "definition": "INTemple : Espace mental ou les idees s'agencent spontanement. INTempts : Idees ou intentions qui s'auto-organisent au sein de l'INTemple.",
+      "pilier": "INT",
+      "categorie": "application",
+      "relations": [
+        "auto-organisation",
+        "intelligence-idiopathique",
+        "computation-qualitative"
+      ],
+      "categorie_principale_excel": "Général/Autre"
+    },
+    {
+      "id": "intrajection",
+      "terme": "Intrajection",
+      "aliases": [],
+      "definition_courte": "Le Point Zero genere et contient en son sein une infinite de dimensions sans augmenter sa taille.",
+      "definition": "Capacite du Point Zero, de dimension nulle, a generer et contenir en son sein une infinite de dimensions, formes et potentialites.",
+      "pilier": "PZ",
+      "categorie": "ontologie",
+      "relations": [
+        "point-zero",
+        "dimension-zero",
+        "projection",
+        "cascades-emergence",
+        "unimultiplicite",
+        "inepuisabilite",
+        "fatalisation",
+        "primaute-relation"
+      ],
+      "categorie_principale_excel": "Point Zéro",
+      "excel_id": "IJ001",
+      "lie_a_id": "EF001",
+      "type_lien": "Mécanisme de",
+      "proprietes": {
+        "opérateur": "génération",
+        "flux": "interne",
+        "cinétique": "expansion"
+      },
+      "distance_conceptuelle": 1.0
+    },
+    {
+      "id": "involution",
+      "terme": "Involution",
+      "aliases": [],
+      "definition_courte": "Phase d'enracinement et de conditionnement au sein des schemas collectifs.",
+      "definition": "Phase d'enracinement et de conditionnement de l'individu au sein des schemas collectifs. Point de depart necessaire pour l'evolution.",
+      "pilier": "PG",
+      "categorie": "conscience",
+      "relations": [
+        "volution",
+        "volusciance",
+        "conscience-nodale",
+        "psychologie-gestationnaire",
+        "ego-incarne"
+      ],
+      "categorie_principale_excel": "Conscience/Volution"
+    },
+    {
+      "id": "loi-action",
+      "terme": "Loi d'Action",
+      "aliases": [],
+      "definition_courte": "Principe moteur de l'auto-organisation et de la Cascade d'Emergence.",
+      "definition": "Principe moteur de l'auto-organisation et de la dynamique de la Cascade d'Emergence. Regit la formation des structures a chaque niveau.",
+      "pilier": "PZ",
+      "categorie": "dynamique",
+      "relations": [
+        "auto-organisation",
+        "cascades-emergence",
+        "transformation-qualitative"
+      ],
+      "categorie_principale_excel": "Émergence/Organisation"
+    },
+    {
+      "id": "logique-fluide",
+      "terme": "Logique Fluide",
+      "aliases": [],
+      "definition_courte": "Computation s'adaptant dynamiquement aux contextes et relations.",
+      "definition": "Mode de pensee ou de computation qui s'adapte dynamiquement aux contextes et aux relations. Caracteristique de la Computation Qualitative.",
+      "pilier": "GQ",
+      "categorie": "computation",
+      "relations": [
+        "computation-qualitative",
+        "geometrie-qualitative"
+      ],
+      "categorie_principale_excel": "Computation Qualitative"
+    },
+    {
+      "id": "matrice-reflective",
+      "terme": "Matrice Reflective",
+      "aliases": [
+        "MR"
+      ],
+      "definition_courte": "Cadre decomposant des systemes complexes en strates interconnectees.",
+      "definition": "Cadre conceptuel pour decomposer des systemes complexes en strates interconnectees et reveler les relations cachees.",
+      "pilier": "GQ",
+      "categorie": "geometrie",
+      "relations": [
+        "geometrie-qualitative",
+        "dimensions-qualitatives",
+        "complexite-emergente"
+      ],
+      "categorie_principale_excel": "Structure/Relation"
+    },
+    {
+      "id": "milieu-interactionnel",
+      "terme": "Milieu Interactionnel",
+      "aliases": [],
+      "definition_courte": "Support des dynamiques d'echange. L'Ether Fluidique par excellence.",
+      "definition": "Le support des dynamiques d'echange et de redistribution d'energie, matiere ou information.",
+      "pilier": "ETH",
+      "categorie": "physique",
+      "relations": [
+        "ether-fluidique",
+        "champs-convectionnels"
+      ],
+      "categorie_principale_excel": "Éther Fluidique"
+    },
+    {
+      "id": "modulations-fantomes",
+      "terme": "Modulations Fantomes",
+      "aliases": [],
+      "definition_courte": "Absences ou informations implicites qui influencent activement un systeme.",
+      "definition": "Structuration des absences ou informations implicites qui influencent activement un systeme.",
+      "pilier": "PZ",
+      "categorie": "ontologie",
+      "relations": [
+        "contre-forme",
+        "dimensions-qualitatives",
+        "relation-forme-contre-forme"
+      ],
+      "categorie_principale_excel": "Computation Qualitative"
+    },
+    {
+      "id": "neguentropie",
+      "terme": "Neguentropie",
+      "aliases": [],
+      "definition_courte": "Auto-organisation luttant contre le chaos, favorisant l'emergence de l'ordre.",
+      "definition": "Processus d'auto-organisation qui lutte contre le chaos et optimise l'equilibre energetique.",
+      "pilier": "PZ",
+      "categorie": "dynamique",
+      "relations": [
+        "auto-organisation",
+        "architecture-neguentropique",
+        "intelligence-idiopathique",
+        "diabole"
+      ],
+      "categorie_principale_excel": "Émergence/Organisation"
+    },
+    {
+      "id": "nombres-hypervolumiques",
+      "terme": "Nombres Hypervolumiques",
+      "aliases": [],
+      "definition_courte": "Nombres integrant des informations sur plusieurs dimensions simultanement.",
+      "definition": "Nombres integrant des informations sur plusieurs dimensions simultanement pour decrire des realites multidimensionnelles.",
+      "pilier": "GQ",
+      "categorie": "mathematique",
+      "relations": [
+        "dimensions-qualitatives",
+        "geometrie-qualitative",
+        "tenseurs-dimensionnels"
+      ],
+      "categorie_principale_excel": "Géométrie Qualitative",
+      "excel_id": "NH001",
+      "proprietes": {
+        "nature": "multidimensionnelle",
+        "représentation": "vecteur complexe",
+        "opérateur": "agrégation"
+      },
+      "ile": "Île Méta-Structure",
+      "type_lien_special": "Croisement",
+      "distance_conceptuelle": 1.0
+    },
+    {
+      "id": "patterns-recursifs",
+      "terme": "Patterns Recursifs",
+      "aliases": [],
+      "definition_courte": "Structures se repetant a differentes echelles. Auto-similarite dynamique.",
+      "definition": "Structures fondamentales qui se repetent ou se referencent elles-memes a differentes echelles.",
+      "pilier": "PZ",
+      "categorie": "dynamique",
+      "relations": [
+        "resonance-echelle",
+        "architecture-neguentropique",
+        "champ-morphique"
+      ],
+      "categorie_principale_excel": "Computation Qualitative"
+    },
+    {
+      "id": "perte-de-controle",
+      "terme": "Perte de Controle",
+      "aliases": [],
+      "definition_courte": "Dynamique echappant a toute direction previsible par exces de complexite.",
+      "definition": "Etat ou la dynamique d'un systeme echappe a toute direction previsible par exces de complexite auto-generee.",
+      "pilier": "A#",
+      "categorie": "dynamique",
+      "relations": [
+        "complexite-emergente",
+        "auto-organisation",
+        "diffraction-creative",
+        "diabole"
+      ],
+      "categorie_principale_excel": "Émergence/Organisation; Conscience/Volution; Processus/Dynamique"
+    },
+    {
+      "id": "pilier-primordial",
+      "terme": "Pilier Primordial",
+      "aliases": [
+        "Pilier de Marbre"
+      ],
+      "definition_courte": "Axe cosmique ou les etats fondamentaux de l'Ether coexistent.",
+      "definition": "Principe d'organisation unifie au coeur de l'Ether Vertical, axe de reference cosmique.",
+      "pilier": "ETH",
+      "categorie": "physique",
+      "relations": [
+        "ether-vertical",
+        "ether-fluidique",
+        "intelligence-idiopathique",
+        "dualite-vectorielle",
+        "tensegrite",
+        "pilier-de-marbre"
+      ]
+    },
+    {
+      "id": "point-zero",
+      "terme": "Point Zero",
+      "aliases": [
+        "PZ"
+      ],
+      "definition_courte": "Condition fondamentale contenant toutes les potentialites sans extension mesurable.",
+      "definition": "Condition fondamentale contenant toutes les potentialites sans extension mesurable. A la fois le Un et le Multiple (Unimulticite).",
+      "pilier": "PZ",
+      "categorie": "ontologie",
+      "relations": [
+        "unimultiplicite",
+        "intrajection",
+        "dimension-zero",
+        "cascades-emergence",
+        "auto-organisation",
+        "champ-scalaire",
+        "processus-transformation",
+        "projection",
+        "inepuisabilite",
+        "mementum",
+        "machine-temporelle",
+        "primaute-relation"
+      ],
+      "categorie_principale_excel": "Point Zéro",
+      "tensor": {
+        "security": 0.9,
+        "coherence": 1.0,
+        "resonance": 0.8,
+        "saturation": 0.0,
+        "dimension_f": 0.0
+      },
+      "tensor_category": "ONTOLOGIE"
+    },
+    {
+      "id": "presence",
+      "terme": "Presence",
+      "aliases": [],
+      "definition_courte": "Etat de conscience d'un individu sur un ou plusieurs plans.",
+      "definition": "Etat de conscience d'un individu sur un ou plusieurs plans. Experience subjective de son Existence.",
+      "pilier": "CONSCIENCE",
+      "categorie": "conscience",
+      "relations": [
+        "existence",
+        "conscience-nodale",
+        "relation-forme-conscience",
+        "volonte",
+        "conscience-meta-organe",
+        "metaconjugaison",
+        "parole-vibratoire",
+        "perception-vibratoire"
+      ],
+      "categorie_principale_excel": "Conscience/Volution; Processus/Dynamique"
+    },
+    {
+      "id": "processus-transformation",
+      "terme": "Processus de Transformation et Emergence",
+      "aliases": [],
+      "definition_courte": "Transition du Point Zero vers des dimensions manifestees.",
+      "definition": "Transition du Point Zero vers des dimensions manifestees par des sauts dimensionnels et des torsions vectorielles.",
+      "pilier": "PZ",
+      "categorie": "dynamique",
+      "relations": [
+        "point-zero",
+        "sauts-dimensionnels",
+        "torsion-vectorielle",
+        "emergence-qualitative",
+        "transformation-qualitative"
+      ],
+      "categorie_principale_excel": "Point Zéro; Univers Chiffonné; Émergence/Organisation; Processus/Dynamique"
+    },
+    {
+      "id": "projection",
+      "terme": "Projection (sens d'Intrajection)",
+      "aliases": [],
+      "definition_courte": "Le Point Zero manifeste en son sein une infinite de dimensions.",
+      "definition": "Capacite du Point Zero a manifester en son sein une infinite de dimensions, formes et potentialites.",
+      "pilier": "PZ",
+      "categorie": "ontologie",
+      "relations": [
+        "intrajection",
+        "point-zero",
+        "dimension-zero"
+      ]
+    },
+    {
+      "id": "resonance-echelle",
+      "terme": "Resonance d'Echelle",
+      "aliases": [],
+      "definition_courte": "Principe reliant les niveaux de realite par des patterns repetitifs.",
+      "definition": "Principe reliant les differents niveaux de realite par des patterns repetitifs et influences mutuelles autosimilaires.",
+      "pilier": "PZ",
+      "categorie": "dynamique",
+      "relations": [
+        "patterns-recursifs",
+        "geometrie-ubiquitaire",
+        "resonance-harmonique",
+        "champ-morphique"
+      ]
+    },
+    {
+      "id": "resonance-harmonique",
+      "terme": "Resonance Harmonique",
+      "aliases": [],
+      "definition_courte": "Accord vibratoire entre elements dont les signatures s'amplifient mutuellement.",
+      "definition": "Etat d'accord vibratoire entre differents elements ou niveaux de realite, dont les signatures s'alignent et s'amplifient.",
+      "pilier": "ETH",
+      "categorie": "physique",
+      "relations": [
+        "syntonie",
+        "resonance-echelle",
+        "champs-coherence"
+      ],
+      "categorie_principale_excel": "Structure/Relation"
+    },
+    {
+      "id": "relation-forme-conscience",
+      "terme": "Relation Forme-Conscience",
+      "aliases": [],
+      "definition_courte": "Interaction bidirectionnelle entre formes manifestees et conscience.",
+      "definition": "Interaction dynamique et bidirectionnelle entre les structures manifestees et l'entite percevante.",
+      "pilier": "CONSCIENCE",
+      "categorie": "conscience",
+      "relations": [
+        "conscience-nodale",
+        "contre-forme",
+        "presence",
+        "tenseur-cognitif",
+        "conscience-meta-organe"
+      ],
+      "categorie_principale_excel": "Conscience/Volution"
+    },
+    {
+      "id": "relation-forme-contre-forme",
+      "terme": "Relation Forme-Contre-forme",
+      "aliases": [],
+      "definition_courte": "Dualite essentielle entre structure manifestee et ce qui la delimite.",
+      "definition": "Dualite essentielle et interdependance entre une structure manifestee et ce qui la delimite ou definit par contraste.",
+      "pilier": "PZ",
+      "categorie": "ontologie",
+      "relations": [
+        "contre-forme",
+        "modulations-fantomes",
+        "dimensions-qualitatives"
+      ],
+      "categorie_principale_excel": "Structure/Relation"
+    },
+    {
+      "id": "rupture-epistemologique",
+      "terme": "Rupture Epistemologique",
+      "aliases": [],
+      "definition_courte": "Fin du quantitatif au profit de la qualite relationnelle.",
+      "definition": "Fin du quantitatif (mesure vers qualite relationnelle), conscience active, unite cachee matiere/energie/esprit.",
+      "pilier": "PZ",
+      "categorie": "epistemologie",
+      "relations": [
+        "ether-fluidique",
+        "dimensions-qualitatives",
+        "geometrie-qualitative"
+      ],
+      "categorie_principale_excel": "Processus/Dynamique"
+    },
+    {
+      "id": "sauts-dimensionnels",
+      "terme": "Sauts Dimensionnels",
+      "aliases": [
+        "Saut Dimensionnel"
+      ],
+      "definition_courte": "Transitions d'un etat ou dimension a un autre.",
+      "definition": "Transitions permettant le passage d'un etat ou d'une dimension a un autre, creant une transition qualitative.",
+      "pilier": "PZ",
+      "categorie": "dynamique",
+      "relations": [
+        "emergence-qualitative",
+        "transformation-qualitative",
+        "processus-transformation",
+        "torsion-vectorielle",
+        "teleportation-conceptuelle"
+      ],
+      "categorie_principale_excel": "Univers Chiffonné"
+    },
+    {
+      "id": "sphere-inverse",
+      "terme": "Sphere Inverse",
+      "aliases": [
+        "Sphere Inversee"
+      ],
+      "definition_courte": "Geometrie renversee : le centre est a l'exterieur.",
+      "definition": "Concept renversant les idees classiques, situant le centre a l'exterieur et diluant l'influence vers le coeur.",
+      "pilier": "A#",
+      "categorie": "geometrie",
+      "relations": [
+        "geometrie-qualitative",
+        "dimensions-qualitatives",
+        "analogie-topologique",
+        "topologie-non-euclidienne",
+        "univers-chiffonne"
+      ],
+      "categorie_principale_excel": "Géométrie Qualitative"
+    },
+    {
+      "id": "syntonie",
+      "terme": "Syntonie",
+      "aliases": [
+        "Syntonie Ambiante"
+      ],
+      "definition_courte": "Harmonisation et resonance entre differents elements d'un systeme.",
+      "definition": "Etat d'harmonisation et de resonance entre differents elements d'un systeme. Coherence inter-niveaux.",
+      "pilier": "ETH",
+      "categorie": "dynamique",
+      "relations": [
+        "resonance-harmonique",
+        "champs-coherence",
+        "auto-organisation"
+      ]
+    },
+    {
+      "id": "teleportation-conceptuelle",
+      "terme": "Teleportation Conceptuelle",
+      "aliases": [],
+      "definition_courte": "Navigation non lineaire, reorganisation soudaine de la structure conceptuelle.",
+      "definition": "Navigation non lineaire dans le champ des possibles, permettant une reorganisation soudaine et profonde.",
+      "pilier": "GQ",
+      "categorie": "computation",
+      "relations": [
+        "sauts-dimensionnels",
+        "computation-qualitative",
+        "geometrie-qualitative",
+        "machine-temporelle",
+        "connexions-topologiques"
+      ],
+      "categorie_principale_excel": "Machine Temporelle"
+    },
+    {
+      "id": "tenseurs-dimensionnels",
+      "terme": "Tenseurs Dimensionnels",
+      "aliases": [
+        "Tenseur"
+      ],
+      "definition_courte": "Operateurs de deploiement et differenciation des dimensions.",
+      "definition": "Operateurs cruciaux dans le deploiement et la differenciation des dimensions, formes et caracteristiques.",
+      "pilier": "GQ",
+      "categorie": "mathematique",
+      "relations": [
+        "unimultiplicite",
+        "dimension-zero",
+        "dimensions-qualitatives",
+        "tenseur-cognitif",
+        "tenseur-gravitationnel",
+        "tenseur-taille",
+        "nombres-hypervolumiques"
+      ],
+      "categorie_principale_excel": "Point Zéro; Univers Chiffonné",
+      "excel_id": "TD001",
+      "proprietes": {
+        "rôle": "structurant",
+        "opérateur": "déploiement",
+        "cinétique": "différenciation"
+      },
+      "type_lien_special": "Croisement",
+      "distance_conceptuelle": 1.0
+    },
+    {
+      "id": "tenseur-cognitif",
+      "terme": "Tenseur Cognitif",
+      "aliases": [],
+      "definition_courte": "Champ qualitatif structurant information, concepts et conscience.",
+      "definition": "Principe organisateur ou champ d'influence qualitatif structurant la maniere dont information, concepts et conscience interagissent.",
+      "pilier": "CONSCIENCE",
+      "categorie": "mathematique",
+      "relations": [
+        "tenseurs-dimensionnels",
+        "conscience-nodale",
+        "relation-forme-conscience"
+      ],
+      "categorie_principale_excel": "Structure/Relation"
+    },
+    {
+      "id": "tenseur-gravitationnel",
+      "terme": "Tenseur Gravitationnel",
+      "aliases": [],
+      "definition_courte": "Modulation gravitationnelle dans un espace lie a l'ether.",
+      "definition": "Modulation gravitationnelle dans un espace structure, en lien avec l'ether fluide. Generalisation de la gravite.",
+      "pilier": "ETH",
+      "categorie": "mathematique",
+      "relations": [
+        "tenseurs-dimensionnels",
+        "ether-fluidique",
+        "dimensions-qualitatives"
+      ],
+      "categorie_principale_excel": "Structure/Relation"
+    },
+    {
+      "id": "tenseur-taille",
+      "terme": "Tenseur de Taille",
+      "aliases": [],
+      "definition_courte": "Grandeur decrite par relations contextuelles, pas par valeur numerique.",
+      "definition": "Operateur decrivant la grandeur d'une entite par un ensemble de relations et de qualites contextuelles.",
+      "pilier": "GQ",
+      "categorie": "mathematique",
+      "relations": [
+        "tenseurs-dimensionnels",
+        "dimensions-qualitatives",
+        "geometrie-qualitative"
+      ],
+      "categorie_principale_excel": "Géométrie Qualitative"
+    },
+    {
+      "id": "transformation-qualitative",
+      "terme": "Transformation Qualitative",
+      "aliases": [],
+      "definition_courte": "Metamorphose de la nature intrinseque d'une entite.",
+      "definition": "Changement fondamental ou une entite subit une metamorphose de sa nature et de son niveau d'organisation.",
+      "pilier": "PZ",
+      "categorie": "dynamique",
+      "relations": [
+        "emergence-qualitative",
+        "sauts-dimensionnels",
+        "processus-transformation",
+        "loi-action"
+      ],
+      "categorie_principale_excel": "Émergence/Organisation; Processus/Dynamique"
+    },
+    {
+      "id": "torsion-vectorielle",
+      "terme": "Torsion Vectorielle",
+      "aliases": [],
+      "definition_courte": "Conversion du flux de l'Ether Vertical en structures de l'Ether Horizontal.",
+      "definition": "Mecanisme fondamental par lequel le flux de l'Ether Vertical se convertit pour donner naissance aux structures de l'Ether Horizontal.",
+      "pilier": "ETH",
+      "categorie": "physique",
+      "relations": [
+        "ether-vertical",
+        "ether-horizontal",
+        "ether-fluidique",
+        "sauts-dimensionnels",
+        "processus-transformation",
+        "qualita",
+        "quanta",
+        "fatalisation",
+        "dualite-vectorielle",
+        "n-spin"
+      ],
+      "categorie_principale_excel": "Éther Fluidique",
+      "excel_id": "TV001",
+      "lie_a_id": "MT001",
+      "type_lien": "Mécanisme pour",
+      "proprietes": {
+        "opérateur": "transformation",
+        "effet": "repliement dimensionnel",
+        "cinétique": "torsion"
+      },
+      "distance_conceptuelle": 1.0,
+      "tensor": {
+        "security": 0.4,
+        "coherence": 0.6,
+        "resonance": 0.9,
+        "saturation": 0.3,
+        "dimension_f": 0.2
+      },
+      "tensor_category": "ONTOLOGIE"
+    },
+    {
+      "id": "unimultiplicite",
+      "terme": "Unimultiplicite",
+      "aliases": [
+        "Unimulticite"
+      ],
+      "definition_courte": "Conscience ontologique intrinsequement une et multiple de maniere ubiquitaire.",
+      "definition": "Etat de conscience ontologique transcendant l'identite individuelle, intrinsequement a la fois une et multiple.",
+      "pilier": "PZ",
+      "categorie": "ontologie",
+      "relations": [
+        "point-zero",
+        "conscience-nodale",
+        "intrajection",
+        "dimension-zero",
+        "tenseurs-dimensionnels"
+      ],
+      "categorie_principale_excel": "Point Zéro"
+    },
+    {
+      "id": "volonte",
+      "terme": "Volonte",
+      "aliases": [],
+      "definition_courte": "Force directrice alignant l'energie vers un but en congruence avec la nature profonde.",
+      "definition": "Force directrice integree et consciente, alignement de l'energie individuelle vers un but en congruence avec la nature profonde.",
+      "pilier": "PG",
+      "categorie": "conscience",
+      "relations": [
+        "volution",
+        "volusciance",
+        "presence",
+        "psychologie-gestationnaire"
+      ],
+      "categorie_principale_excel": "Conscience/Volution"
+    },
+    {
+      "id": "volution",
+      "terme": "Volution",
+      "aliases": [],
+      "definition_courte": "Processus global articulant involution et evolution.",
+      "definition": "Processus global de transformation de la conscience articulant involution et evolution. Spirale de developpement.",
+      "pilier": "PG",
+      "categorie": "conscience",
+      "relations": [
+        "involution",
+        "volusciance",
+        "volonte",
+        "conscience-nodale",
+        "mementum",
+        "conscience-meta-organe",
+        "psychologie-gestationnaire",
+        "ego-incarne",
+        "ecologie-ame"
+      ],
+      "categorie_principale_excel": "Conscience/Volution",
+      "excel_id": "VL001",
+      "proprietes": {
+        "guidance": "intentionnelle",
+        "opérateur": "transformation",
+        "cinétique": "dirigée"
+      }
+    },
+    {
+      "id": "volusciance",
+      "terme": "Volusciance",
+      "aliases": [
+        "Voluscience",
+        "Action Volusciante"
+      ],
+      "definition_courte": "Mode d'action consciemment aligne avec la Volution.",
+      "definition": "Mode d'intervention consciemment aligne avec les principes de la Volution. Participation active et eclairee.",
+      "pilier": "PG",
+      "categorie": "conscience",
+      "relations": [
+        "volution",
+        "volonte",
+        "involution"
+      ]
+    },
+    {
+      "id": "qualita",
+      "terme": "QUALITA",
+      "aliases": [
+        "Qualita"
+      ],
+      "definition_courte": "Potentialite pure, dimension transcendante de l'Ether Vertical.",
+      "definition": "Pole de potentialite pure et de transcendance dans la dualite fondamentale de l'Ether. Associe a l'Ether Vertical.",
+      "pilier": "ETH",
+      "categorie": "physique",
+      "relations": [
+        "ether-vertical",
+        "quanta",
+        "torsion-vectorielle",
+        "dualite-vectorielle"
+      ]
+    },
+    {
+      "id": "quanta",
+      "terme": "QUANTA",
+      "aliases": [
+        "Quanta"
+      ],
+      "definition_courte": "Plan de manifestation mesurable de l'Ether Horizontal.",
+      "definition": "Pole de manifestation et de mesurabilite dans la dualite fondamentale de l'Ether. Associe a l'Ether Horizontal.",
+      "pilier": "ETH",
+      "categorie": "physique",
+      "relations": [
+        "ether-horizontal",
+        "qualita",
+        "torsion-vectorielle",
+        "dualite-vectorielle"
+      ]
+    },
+    {
+      "id": "inepuisabilite",
+      "terme": "Inepuisabilite",
+      "aliases": [],
+      "definition_courte": "Propriete du Point Zero de generer indefiniment sans s'epuiser.",
+      "definition": "Propriete fondamentale du Point Zero : capacite a generer indefiniment des formes, dimensions et potentialites sans s'epuiser.",
+      "pilier": "PZ",
+      "categorie": "ontologie",
+      "relations": [
+        "point-zero",
+        "intrajection",
+        "dimension-zero"
+      ]
+    },
+    {
+      "id": "diabole",
+      "terme": "Diabole",
+      "aliases": [],
+      "definition_courte": "Force entropique : multiplication des details menant a confusion. Miroir de l'Intelligence Idiopathique.",
+      "definition": "Force entropique : multiplication des details, confusion, perte de la vision d'ensemble. Miroir inverse de l'Intelligence Idiopathique.",
+      "pilier": "A#",
+      "categorie": "dynamique",
+      "relations": [
+        "intelligence-idiopathique",
+        "perte-de-controle",
+        "diffraction-creative",
+        "neguentropie",
+        "ecologie-ame"
+      ]
+    },
+    {
+      "id": "mementum",
+      "terme": "Mementum",
+      "aliases": [],
+      "definition_courte": "Memento + Momentum + Memetique. Instant originel reactivable.",
+      "definition": "Fusion de Memento (memoire), Momentum (elan) et Memetique (transmission). Instant originel reactivable, synthese unificatrice.",
+      "pilier": "A#",
+      "categorie": "ontologie",
+      "relations": [
+        "point-zero",
+        "ether-fluidique",
+        "volution"
+      ]
+    },
+    {
+      "id": "topologie-non-euclidienne",
+      "terme": "Topologie Non-Euclidienne",
+      "aliases": [
+        "Geometrie Chiffonnee"
+      ],
+      "definition_courte": "Topologie chiffonnee ou les replis creent des adjacences non metriques.",
+      "definition": "Approche topologique ou l'espace se replie sur lui-meme, creant des adjacences qualitatives independantes de la distance metrique.",
+      "pilier": "GQ",
+      "categorie": "geometrie",
+      "relations": [
+        "geometrie-qualitative",
+        "analogie-topologique",
+        "sphere-inverse",
+        "dimensions-qualitatives",
+        "sphere-temporelle",
+        "univers-chiffonne",
+        "n-spin",
+        "connexions-topologiques"
+      ]
+    },
+    {
+      "id": "machine-temporelle",
+      "terme": "Machine Temporelle",
+      "aliases": [
+        "MT"
+      ],
+      "definition_courte": "Modele de la structure fractale du temps, avec spheres temporelles et morphismes.",
+      "definition": "Architecture theorique du temps comme structure non lineaire, composee de spheres temporelles emboitees, de morphismes temporels et de champs convectionnels. Le temps n'est pas une fleche mais une topologie fractale navigable.",
+      "pilier": "MT",
+      "categorie": "physique",
+      "relations": [
+        "point-zero",
+        "ether-fluidique",
+        "sphere-temporelle",
+        "fatalisation",
+        "teleportation-conceptuelle"
+      ],
+      "ile": "Ile Chronos",
+      "proprietes": {
+        "raw": "localisation: ubiquitaire; portail: oui; opérateur: accès temporel"
+      },
+      "type_lien_special": "Ancrées dans"
+    },
+    {
+      "id": "sphere-temporelle",
+      "terme": "Sphere Temporelle",
+      "aliases": [
+        "Spheres Ubiquitaires Temporelles",
+        "Spheres Temporelles"
+      ],
+      "definition_courte": "Unite structurelle du temps dans la Machine Temporelle, sphere fractale emboitee.",
+      "definition": "Structure fondamentale du temps dans le modele MT : chaque sphere temporelle contient des sous-spheres (fractalite) et peut interagir avec d'autres spheres par intrication bilocale. Le temps est une collection de spheres, pas une ligne.",
+      "pilier": "MT",
+      "categorie": "physique",
+      "relations": [
+        "machine-temporelle",
+        "fatalisation",
+        "ether-fluidique",
+        "topologie-non-euclidienne"
+      ],
+      "ile": "Ile Chronos"
+    },
+    {
+      "id": "fatalisation",
+      "terme": "Fatalisation",
+      "aliases": [],
+      "definition_courte": "Processus de cristallisation temporelle : le possible devient necessaire.",
+      "definition": "Dans la Machine Temporelle, processus par lequel les potentialites (spheres ouvertes) se cristallisent en evenements (spheres fermees). La fatalisation est la transition topologique du possible vers le manifeste, analogue a l'intrajection dans le domaine temporel.",
+      "pilier": "MT",
+      "categorie": "dynamique",
+      "relations": [
+        "machine-temporelle",
+        "sphere-temporelle",
+        "intrajection",
+        "torsion-vectorielle"
+      ],
+      "proprietes": {
+        "raw": "cinétique: probabiliste; opérateur: convergence"
+      }
+    },
+    {
+      "id": "univers-chiffonne",
+      "terme": "Univers Chiffonne",
+      "aliases": [
+        "Espace Chiffonne"
+      ],
+      "definition_courte": "Topologie ou l'espace se replie creant des adjacences non metriques entre points distants.",
+      "definition": "Modele cosmologique et geometrique ou l'univers est replie sur lui-meme comme du papier chiffonne. Des points apparemment distants peuvent etre adjacents dans l'espace replie. Alternative aux dimensions supplementaires : les replis remplacent les dimensions compactes.",
+      "pilier": "GQ",
+      "categorie": "geometrie",
+      "relations": [
+        "topologie-non-euclidienne",
+        "sphere-inverse",
+        "geometrie-qualitative",
+        "analogie-topologique",
+        "connexions-topologiques"
+      ],
+      "ile": "Ile Realite Repliee"
+    },
+    {
+      "id": "dualite-vectorielle",
+      "terme": "Dualite Vectorielle",
+      "aliases": [
+        "V/H",
+        "Vertical/Horizontal"
+      ],
+      "definition_courte": "Tension fondamentale entre Ether Vertical (QUALITA) et Ether Horizontal (QUANTA).",
+      "definition": "Architecture duale de l'ether : le Vertical (potentialite pure, transcendant) et l'Horizontal (manifestation, tangible) forment une tension creative permanente. La torsion vectorielle est le point de conversion entre les deux. Analogie du champignon nucleaire : le haut = tangible, le bas = holistique.",
+      "pilier": "ETH",
+      "categorie": "physique",
+      "relations": [
+        "ether-vertical",
+        "ether-horizontal",
+        "qualita",
+        "quanta",
+        "torsion-vectorielle",
+        "pilier-primordial",
+        "pilier-de-marbre"
+      ],
+      "ile": "Ile Fluidite"
+    },
+    {
+      "id": "conscience-meta-organe",
+      "terme": "Conscience (Meta-Organe Sensoriel)",
+      "aliases": [
+        "Meta-Organe",
+        "Conscience Meta-Organe"
+      ],
+      "definition_courte": "La conscience comme organe de perception multidimensionnel, pas comme produit du cerveau.",
+      "definition": "La conscience n'est pas un epiphenomene cerebral mais un meta-organe sensoriel capable de percevoir et d'interagir avec plusieurs niveaux de realite simultanement. Elle est le medium par lequel l'etre humain accede aux dimensions qualitatives de l'existence.",
+      "pilier": "CONSCIENCE",
+      "categorie": "conscience",
+      "relations": [
+        "conscience-nodale",
+        "volution",
+        "presence",
+        "relation-forme-conscience",
+        "metaconjugaison",
+        "parole-vibratoire",
+        "perception-vibratoire",
+        "ecologie-ame"
+      ]
+    },
+    {
+      "id": "psychologie-gestationnaire",
+      "terme": "Psychologie Gestationnaire",
+      "aliases": [
+        "PG",
+        "Psy Gestationnaire"
+      ],
+      "definition_courte": "Modele psychologique articulant involution, evolution et volution de la conscience individuelle.",
+      "definition": "Branche appliquee du systeme PZ : modele de developpement psychologique ou l'individu traverse une involution (conditionnement collectif, ego conditionne), puis une evolution (eveil, nouvel ego), dans un processus global de volution. Inclut les concepts de particules psychiques autonomes et de sublimation.",
+      "pilier": "PG",
+      "categorie": "conscience",
+      "relations": [
+        "volution",
+        "involution",
+        "conscience-nodale",
+        "volonte",
+        "ego-incarne",
+        "ecologie-ame"
+      ]
+    },
+    {
+      "id": "metaconjugaison",
+      "terme": "MetaConjugaison",
+      "aliases": [
+        "Meta-Conjugaison",
+        "MC",
+        "Le Ju"
+      ],
+      "definition_courte": "Narration multivectorielle fusionnant je/tu (le Ju) dans une parole vibratoire en streaming.",
+      "definition": "Systeme d'ecriture et de parole ne d'un lapsus creatif : le 'Ju' (fusion je/tu). Depasse la narration mono-vectorielle (un sujet, un verbe, un temps) pour une narration scalaire multidimensionnelle. Extensions vers l'euskara (multi-ergativite), les kanji vibratoires, la calligraphie multidimensionnelle.",
+      "pilier": "MC",
+      "categorie": "conscience",
+      "relations": [
+        "conscience-meta-organe",
+        "parole-vibratoire",
+        "presence"
+      ]
+    },
+    {
+      "id": "parole-vibratoire",
+      "terme": "Parole Vibratoire",
+      "aliases": [
+        "Vibratory Speech"
+      ],
+      "definition_courte": "Parole en streaming, non mentalisee, ou le son precede le sens.",
+      "definition": "Mode d'expression ou la parole emerge directement sans passer par la mentalisation prealable. Le son et le rythme portent le sens avant les mots. Trois etats : Silence Actif (le Vide Fertile), Parole Vibratoire (emission directe), Translucidite (effacement de la forme au profit du fond). Source des termes creatifs du systeme PZ.",
+      "pilier": "CONSCIENCE",
+      "categorie": "conscience",
+      "relations": [
+        "metaconjugaison",
+        "conscience-meta-organe",
+        "presence",
+        "perception-vibratoire"
+      ]
+    },
+    {
+      "id": "tensegrite",
+      "terme": "Tensegrite",
+      "aliases": [
+        "Tensegrity",
+        "Fluidite Tensegritaire"
+      ],
+      "definition_courte": "Equilibre dynamique entre tension et compression, integrite structurelle sans rigidite.",
+      "definition": "Principe structural ou l'integrite d'un systeme emerge de l'equilibre entre forces de tension et de compression, sans element rigide continu. Dans le systeme PZ, la tensegrite decrit l'etat des 4 etats etheriques (solide/liquide/gazeux/plasmique qualitatifs) en equilibre dynamique. Une rupture de tensegrite signale une contradiction avec un tau_0 etabli.",
+      "pilier": "ETH",
+      "categorie": "physique",
+      "relations": [
+        "ether-fluidique",
+        "pilier-primordial",
+        "champs-coherence",
+        "auto-organisation",
+        "pilier-de-marbre"
+      ]
+    },
+    {
+      "id": "primaute-relation",
+      "terme": "Primaute de la Relation",
+      "aliases": [
+        "Primacy of Relation"
+      ],
+      "definition_courte": "La relation precede et definit les entites, pas l'inverse.",
+      "definition": "Principe ontologique fondamental : les relations entre entites sont plus fondamentales que les entites elles-memes. En Dimension Zero, les 'points' n'existent que par leurs relations mutuelles. La relation est l'invariant, l'entite est l'emergent.",
+      "pilier": "PZ",
+      "categorie": "ontologie",
+      "relations": [
+        "point-zero",
+        "dimension-zero",
+        "intrajection",
+        "geometrie-qualitative"
+      ]
+    },
+    {
+      "id": "n-spin",
+      "terme": "N-spin",
+      "aliases": [
+        "n-spin"
+      ],
+      "definition_courte": "Triangle geometrique a courbure variable, seuil critique alpha_c declenchant une transition topologique.",
+      "definition": "Modele geometrique du triangle dont les aretes peuvent se courber. Quand la courbure depasse un seuil critique alpha_c, transition topologique creant un cycle de torsion mesurant la complexite angulaire. Pont entre geometrie et computation qualitative. Dans l'architecture INTemple, le n-spin mesure la courbure informationnelle et la densite fractale d'un sujet.",
+      "pilier": "GQ",
+      "categorie": "mathematique",
+      "relations": [
+        "geometrie-qualitative",
+        "computation-qualitative",
+        "topologie-non-euclidienne",
+        "torsion-vectorielle"
+      ]
+    },
+    {
+      "id": "connexions-topologiques",
+      "terme": "Connexions Topologiques",
+      "aliases": [],
+      "definition_courte": "Liens non metriques entre points de l'espace replie, adjacences qualitatives.",
+      "definition": "Dans l'Univers Chiffonne, les connexions topologiques sont des adjacences creees par le repli de l'espace. Deux points metriquement distants deviennent topologiquement adjacents. L'intrication quantique peut etre interpretee comme une connexion topologique : les particules sont 'voisines' dans l'espace replie.",
+      "pilier": "GQ",
+      "categorie": "geometrie",
+      "relations": [
+        "univers-chiffonne",
+        "topologie-non-euclidienne",
+        "teleportation-conceptuelle",
+        "analogie-topologique"
+      ],
+      "ile": "Ile Realite Repliee",
+      "proprietes": {
+        "raw": "géométrie: non-euclidienne; dimensions: multiples"
+      },
+      "type_lien_special": "Permet"
+    },
+    {
+      "id": "ego-incarne",
+      "terme": "Ego Incarne",
+      "aliases": [
+        "Ego Conditionne",
+        "Nouvel Ego"
+      ],
+      "definition_courte": "L'ego comme vehicule d'incarnation, conditionne puis transcende dans la volution.",
+      "definition": "Dans la Psychologie Gestationnaire, l'ego traverse deux phases : l'ego conditionne (produit de l'involution, schemas collectifs) et le nouvel ego (produit de l'evolution, alignement conscient). L'ego n'est pas a detruire mais a transmuter : il est le vehicule de l'incarnation dans le plan horizontal.",
+      "pilier": "PG",
+      "categorie": "conscience",
+      "relations": [
+        "psychologie-gestationnaire",
+        "volution",
+        "involution",
+        "conscience-nodale"
+      ]
+    },
+    {
+      "id": "memoire-cinetique",
+      "terme": "Memoire Cinetique",
+      "aliases": [
+        "Kinetic Memory",
+        "Memoire par Vagues"
+      ],
+      "definition_courte": "Systeme de gestion de l'information par vagues : cretes (saillant) conservees, creux (secondaire) oublies.",
+      "definition": "Modele de memoire dynamique inspire du mouvement des vagues. L'information est traitee selon trois niveaux (Ecume/Creux/Ocean) avec des parametres de flottabilite, velocite et ancrage. Les cretes informationnelles (haute saillance) sont conservees, les creux (details secondaires) sont naturellement oublies. Applicable a la gestion de contexte LLM, aux conversations longues et a la sedimentation des connaissances.",
+      "pilier": "INT",
+      "categorie": "application",
+      "relations": [
+        "conscience-nodale",
+        "intelligence-idiopathique",
+        "auto-organisation",
+        "computation-qualitative"
+      ]
+    },
+    {
+      "id": "pilier-de-marbre",
+      "terme": "Pilier de Marbre",
+      "aliases": [
+        "Pilier Primordial de Marbre"
+      ],
+      "definition_courte": "Metaphore de l'unite cosmique : colonne de lumiere fusionnant les 4 etats etheriques tout en maintenant leurs identites distinctes.",
+      "definition": "Colonne de lumiere fusionnant les 4 etats etheriques (solide/liquide/gazeux/plasmique qualitatifs) en une unite indivisible. Chaque etat conserve son identite propre tout en participant au tout. Le Pilier de Marbre est le 'code source cosmique' d'ou emerge l'Intelligence Idiopathique. La matiere y est concue comme 'vibration ralentie' de l'ether. Concept central de la physique qualitative du systeme PZ.",
+      "pilier": "ETH",
+      "categorie": "physique",
+      "relations": [
+        "ether-fluidique",
+        "pilier-primordial",
+        "intelligence-idiopathique",
+        "dualite-vectorielle",
+        "tensegrite"
+      ],
+      "ile": "Ile Fluidite"
+    },
+    {
+      "id": "sublimation",
+      "terme": "Sublimation",
+      "aliases": [
+        "Sublimation Psychique"
+      ],
+      "definition_courte": "Transmutation de l'energie psychique brute en conscience raffinee, analogue au passage solide-gazeux.",
+      "definition": "Dans la Psychologie Gestationnaire, processus par lequel l'energie psychique conditionnee (ego conditionne, charges memorielles, particules psychiques) se transmute en conscience libre. Analogue au passage direct du solide au gazeux en physique : la sublimation court-circuite les etapes intermediaires pour une transformation radicale.",
+      "pilier": "PG",
+      "categorie": "dynamique",
+      "relations": [
+        "psychologie-gestationnaire",
+        "ego-incarne",
+        "volution",
+        "particules-psychiques"
+      ]
+    },
+    {
+      "id": "particules-psychiques",
+      "terme": "Particules Psychiques Autonomes",
+      "aliases": [
+        "Particules Psychiques",
+        "PPA"
+      ],
+      "definition_courte": "Unites autonomes d'energie psychique dotees de leur propre dynamique et inertie.",
+      "definition": "Dans la Psychologie Gestationnaire, fragments d'experience qui acquierent une autonomie propre dans l'espace psychique. Chaque particule possede une charge memorielle, une inertie et une trajectoire. Elles interagissent entre elles et avec la conscience de maniere analogue aux particules physiques dans un champ. La sublimation permet de les transmuter.",
+      "pilier": "PG",
+      "categorie": "conscience",
+      "relations": [
+        "psychologie-gestationnaire",
+        "sublimation",
+        "charge-memorielle",
+        "ego-incarne"
+      ]
+    },
+    {
+      "id": "charge-memorielle",
+      "terme": "Charge Memorielle",
+      "aliases": [],
+      "definition_courte": "Poids energetique d'un souvenir ou schema, determine son influence sur le champ psychique.",
+      "definition": "Quantite d'energie investie dans un souvenir, un schema ou une empreinte psychique. Plus la charge est elevee, plus l'influence sur le comportement et la perception est forte. Les charges memorielles nourrissent les particules psychiques et conditionnent l'ego. La sublimation vise a liberer ces charges pour les transmuter.",
+      "pilier": "PG",
+      "categorie": "dynamique",
+      "relations": [
+        "particules-psychiques",
+        "sublimation",
+        "ego-incarne",
+        "psychologie-gestationnaire"
+      ]
+    },
+    {
+      "id": "eveil-solaire",
+      "terme": "Eveil Solaire",
+      "aliases": [
+        "Memoire Solaire",
+        "Conscience Solaire"
+      ],
+      "definition_courte": "Acces direct et instantane a la connaissance, sans effort de rememoration, au-dela de l'ego.",
+      "definition": "Mode de conscience non conditionne par le passe : acces direct, instantane, sans effort de rememoration. S'oppose a la memoire lunaire (analytique, sequentielle, conditionnee). L'eveil solaire est une conscience claire qui percoit sans filtre egoique, au-dela du plan mental inferieur.",
+      "pilier": "CONSCIENCE",
+      "categorie": "conscience",
+      "relations": [
+        "conscience-meta-organe",
+        "eveil-lunaire",
+        "conscience-nodale",
+        "volution"
+      ]
+    },
+    {
+      "id": "eveil-lunaire",
+      "terme": "Eveil Lunaire",
+      "aliases": [
+        "Memoire Lunaire",
+        "Conscience Lunaire"
+      ],
+      "definition_courte": "Memoire analytique et sequentielle, conditionnee par le passe et le plan mental inferieur.",
+      "definition": "Mode de memoire et de conscience lie au plan mental inferieur : analytique, sequentiel, conditionne par l'experience passee. L'ame y fonctionne comme une pellicule memorielle accumulant les impressions. Point de depart de la volution psychologique, a depasser vers l'eveil solaire.",
+      "pilier": "CONSCIENCE",
+      "categorie": "conscience",
+      "relations": [
+        "conscience-meta-organe",
+        "eveil-solaire",
+        "psychologie-gestationnaire",
+        "ego-incarne"
+      ]
+    },
+    {
+      "id": "perception-vibratoire",
+      "terme": "Perception Vibratoire",
+      "aliases": [
+        "Taux Vibratoire"
+      ],
+      "definition_courte": "Capacite de percevoir les frequences subtiles de la realite au-dela du spectre sensoriel ordinaire.",
+      "definition": "Mode perceptif ou la conscience detecte les frequences vibratoires de l'ether, des corps subtils et des champs morphiques. Inclut le taux vibratoire (mesure qualitative de la densite etherielle perceptible) et s'articule avec les concepts de presence, de parole vibratoire et de corps subtils.",
+      "pilier": "CONSCIENCE",
+      "categorie": "conscience",
+      "relations": [
+        "conscience-meta-organe",
+        "parole-vibratoire",
+        "ether-fluidique",
+        "presence"
+      ]
+    },
+    {
+      "id": "ecologie-ame",
+      "terme": "Ecologie de l'Ame",
+      "aliases": [
+        "Ecologie Psychique"
+      ],
+      "definition_courte": "Vision systemique de l'ame comme ecosysteme vivant avec ses equilibres, ses cycles et sa biodiversite interieure.",
+      "definition": "Approche qui traite l'espace psychique et spirituel comme un ecosysteme : equilibres dynamiques, cycles de croissance et de repos, biodiversite interieure (differentes facettes de la conscience), predateurs (le Diabole, les charges memorielles) et symbioses (volution, sublimation). L'ecologie de l'ame est l'art de maintenir la sante de cet ecosysteme.",
+      "pilier": "CONSCIENCE",
+      "categorie": "conscience",
+      "relations": [
+        "conscience-meta-organe",
+        "conscience-nodale",
+        "psychologie-gestationnaire",
+        "diabole",
+        "volution"
+      ]
+    }
+  ],
+  "sources": [
+    "VAULT VISION/-...GLOSSAIRE/01_GLOSSAIRE_PRINCIPAL/GLOSS_glossaire_definitions.md",
+    "Google Drive: 2_ Bibliotheque Technique_ EXCEL_ MATRICES_/glossaire_concepts.xlsx",
+    "Google Drive: glossaire_hierarchique_avec_relations.xlsx",
+    "Google Drive: S_glossaire_geometrie_qualitative_v5.xlsx",
+    "Google Drive: n-dimension.xlsx (AURERABIDE tensor)"
+  ]
+}

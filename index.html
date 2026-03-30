@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Hyperliage Point Zero - Glossaire</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background: #fafafa;
+      color: #111;
+      line-height: 1.6;
+    }
+    h1 { margin-bottom: 10px; color: #333; font-size: 2.2em; }
+    .subtitle { color: #666; font-style: italic; margin-bottom: 20px; }
+    #search {
+      width: 100%; max-width: 640px; padding: 12px 16px;
+      margin: 10px 0 20px 0; border-radius: 8px;
+      border: 2px solid #ddd; font-size: 16px; transition: border-color 0.3s ease;
+    }
+    #search:focus { outline: none; border-color: #667eea; box-shadow: 0 0 0 3px rgba(102,126,234,0.1); }
+    .filters { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
+    .filter-btn { padding: 6px 14px; border: 1px solid #ccc; border-radius: 8px; background: #fff; color: #666; font-size: 13px; cursor: pointer; }
+    .filter-btn.active { background: #667eea; color: #fff; border-color: #667eea; }
+    .filter-btn:hover { background: #f0f0f0; }
+    .filter-btn.active:hover { background: #5566dd; }
+    #terms { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 20px; }
+    .term {
+      display: block; padding: 14px 18px; background: #fff; border-radius: 8px;
+      text-decoration: none; color: #333; cursor: default;
+      border-left: 3px solid #e0e0e0; min-width: 200px; max-width: 400px; flex: 1 1 280px;
+      transition: all 0.2s ease;
+    }
+    .term.match { border-left: 5px solid #667eea; box-shadow: 0 2px 8px rgba(102,126,234,0.15); }
+    .term.dim { opacity: 0.35; }
+    .term .name { font-weight: 600; font-size: 15px; margin-bottom: 4px; }
+    .term .pilier { font-size: 11px; color: #fff; background: #667eea; padding: 2px 8px; border-radius: 4px; display: inline-block; margin-bottom: 6px; }
+    .term .def { font-size: 13px; color: #666; }
+    .term:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+    .search-info { margin: 15px 0; color: #666; font-size: 14px; }
+    .no-results { text-align: center; color: #999; font-style: italic; margin: 40px 0; display: none; }
+    .error { text-align: center; color: #cc3333; margin: 40px 0; }
+    @media (max-width: 768px) { body { margin: 15px; } h1 { font-size: 1.8em; } }
+  </style>
+</head>
+<body>
+  <h1>Glossaire — Hyperliage Point Zero</h1>
+  <p class="subtitle">Charge depuis DATA/DATA_GLOSS_glossaire_pz.json</p>
+
+  <input id="search" type="search" placeholder="Rechercher un terme (ex. intrajection, ether, conscience)">
+
+  <div class="filters" id="filters"></div>
+
+  <div class="search-info">
+    <span id="results-count">Chargement...</span>
+  </div>
+
+  <div id="terms"></div>
+  <div class="no-results" id="no-results">Aucun terme ne resonne avec cette recherche...</div>
+
+  <script>
+    let glossaire = [];
+    let activePilier = 'all';
+
+    async function loadGlossaire() {
+      try {
+        const res = await fetch('./glossaire_pz.json');
+        if (!res.ok) throw new Error('Fichier non trouve');
+        const data = await res.json();
+        glossaire = data.termes;
+        buildFilters();
+        render();
+      } catch (e) {
+        document.getElementById('terms').innerHTML =
+          '<div class="error">Impossible de charger le glossaire.<br>Verifiez que DATA/DATA_GLOSS_glossaire_pz.json est accessible.<br><small>' + e.message + '</small></div>';
+      }
+    }
+
+    function buildFilters() {
+      const piliers = [...new Set(glossaire.map(t => t.pilier))].sort();
+      const container = document.getElementById('filters');
+      container.innerHTML = '<button class="filter-btn active" data-pilier="all">Tout (' + glossaire.length + ')</button>' +
+        piliers.map(p => {
+          const count = glossaire.filter(t => t.pilier === p).length;
+          return '<button class="filter-btn" data-pilier="' + p + '">' + p + ' (' + count + ')</button>';
+        }).join('');
+
+      container.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          container.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          activePilier = btn.dataset.pilier;
+          render();
+        });
+      });
+    }
+
+    function render() {
+      const q = (document.getElementById('search').value || '').trim().toLowerCase();
+      const container = document.getElementById('terms');
+
+      const filtered = glossaire.filter(t => {
+        const matchPilier = activePilier === 'all' || t.pilier === activePilier;
+        const matchSearch = !q ||
+          t.terme.toLowerCase().includes(q) ||
+          t.definition_courte.toLowerCase().includes(q) ||
+          (t.aliases || []).some(a => a.toLowerCase().includes(q));
+        return matchPilier && matchSearch;
+      });
+
+      container.innerHTML = filtered.map(t =>
+        '<div class="term match">' +
+          '<div class="name">' + t.terme + '</div>' +
+          '<span class="pilier">' + t.pilier + '</span>' +
+          (t.aliases && t.aliases.length ? ' <span style="font-size:11px;color:#999">' + t.aliases.join(', ') + '</span>' : '') +
+          '<div class="def">' + t.definition_courte + '</div>' +
+        '</div>'
+      ).join('');
+
+      document.getElementById('results-count').textContent = filtered.length + '/' + glossaire.length + ' termes';
+      document.getElementById('no-results').style.display = filtered.length === 0 ? 'block' : 'none';
+    }
+
+    let timeout;
+    document.getElementById('search').addEventListener('input', () => {
+      clearTimeout(timeout);
+      timeout = setTimeout(render, 150);
+    });
+
+    document.addEventListener('keydown', e => {
+      if (e.key === '/' && !document.getElementById('search').matches(':focus')) {
+        e.preventDefault();
+        document.getElementById('search').focus();
+      }
+    });
+
+    loadGlossaire();
+  </script>
+</body>
+</html>
