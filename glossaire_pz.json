@@ -16,7 +16,12 @@
     "ile": "ile conceptuelle (Ile Origine, Ile Fluidite...)",
     "type_lien_special": "Teleporteur|Pont|Trou de Ver|Croisement|Rallongement",
     "tensor": "dict {security, coherence, resonance, saturation, dimension_f}",
-    "tensor_category": "ONTOLOGIE|SECURITE|FLUX|COHERENCE|LINGUISTIQUE|PATHOLOGIE|META"
+    "tensor_category": "ONTOLOGIE|SECURITE|FLUX|COHERENCE|LINGUISTIQUE|PATHOLOGIE|META",
+    "apophatique": {
+      "ne_pas_confondre": "liste de confusions frequentes (ce que le concept N'EST PAS)",
+      "deformation_llm": "comment un LLM deforme typiquement ce concept",
+      "modulation_fantome": "poids complementaire : dans le systeme PZ, manifeste(0.5)+fantome(0.5)=1 unite d'information (peigne entrelace). Ce champ decrit la CONTRE-FORME informationnelle — ce que l'absence de ce concept revele, pondere par la conscience lecture"
+    }
   },
   "termes": [
     {
@@ -78,6 +83,33 @@
         "memoire-cinetique"
       ],
       "categorie_principale_excel": "Point Zéro; Émergence/Organisation"
+    },
+    {
+      "id": "cadran-cyclique",
+      "terme": "Cadran Cyclique",
+      "aliases": [
+        "Graphique Circulaire des Modulations"
+      ],
+      "definition_courte": "Representation cyclique des n-modulations d'une matrice primaire n-slot, bouclant apres completion (retour a zero). Les cadrans sont potentiellement infinis.",
+      "definition": "Representation cyclique (circulaire) des modulations possibles d'une matrice a n-slot (modulation primaire) et n-variable (modulation secondaire). Exemple : matrice primaire 4, secondaire 2 = 16 modulations (4+6+4+2), retour a zero apres cycle complet. Mais n-slot est une structure arbitraire d'exploration du concept — les cadrans eux-memes sont potentiellement infinis puisque n-chose = nombre reel (1D), ou k-chose (n-metadimension). Le cadran est le lieu ou les peignes manifeste/fantome interagissent avec 3 types de relation : jonction (brins reunis), ecart (brins separes), chevauchement (brins superposes). Le passage a un graphique circulaire (plutot que lineaire) revele la nature cyclique et non-sequentielle des modulations. L'equivalent binaire (4 bits = 16 etats) n'est qu'un cas particulier du cadran.",
+      "pilier": "GQ",
+      "categorie": "computation",
+      "relations": [
+        "modulations-fantomes",
+        "matrice-reflective",
+        "contre-forme",
+        "dimensions-qualitatives",
+        "conscience-lecture"
+      ],
+      "apophatique": {
+        "ne_pas_confondre": [
+          "≠ un cadran d'horloge (pas une mesure temporelle — c'est une representation de l'espace des configurations possibles)",
+          "≠ un cycle repetitif mecanique (chaque tour du cadran peut avoir un CONTEXTE different — la modulation primaire peut changer)",
+          "≠ une progression lineaire bouclée (le retour a zero n'est pas un reset mais une completion — toute l'information du cycle est contenue)"
+        ],
+        "deformation_llm": "Le LLM traite le cadran comme une simple visualisation. Il manque le caractere ONTOLOGIQUE : le cadran n'est pas une representation DES modulations, il EST l'espace des modulations. La cyclicite n'est pas un choix de representation — c'est une propriete emergente du fait que 16 configurations epuisent l'espace d'une matrice 4x2.",
+        "modulation_fantome": "Poids fantome du cadran : quand le cadran est absent (pas de representation cyclique), les modulations apparaissent comme une liste lineaire — et leur COMPLETUDE devient invisible. Sans cadran, on ne voit pas que 16 = tout, que la 17e est un doublon. L'absence de circularite masque la saturation informationnelle du cycle."
+      }
     },
     {
       "id": "cascades-emergence",
@@ -255,6 +287,35 @@
       "tensor_category": "ONTOLOGIE"
     },
     {
+      "id": "conscience-lecture",
+      "terme": "Conscience Lecture",
+      "aliases": [
+        "Operateur Pi"
+      ],
+      "definition_courte": "Operateur qui ordonne les potentialites de l'ether a un niveau specifique, naviguant la topologie des peignes manifeste/fantome et provoquant l'effondrement vers un etat defini.",
+      "definition": "Operateur de projection ponderee (Pi) qui canalise les potentialites de l'ether fluidique vers un etat defini. Dans la metaphore PZ : le trou qui canalise le flot (baignoire), la vanne qui choisit un courant (ecluse). Agit comme agent d'effondrement de la fonction d'onde — l'interaction du detecteur avec l'ether brise la coherence vibratoire et force un etat parmi les superpositions. Son aspect gravitationnel se manifeste dans la decoherence quantique : l'observation fixe un etat, comme une compression locale de l'ether. Dans le systeme modulations manifestes/fantomes, la conscience lecture navigue la topologie variable des peignes (jonctions, ecarts, chevauchements) et determine quel ratio manifeste/fantome est projete — ratio symboliquement 0.5/0.5 pour un cadran miroir, mais potentiellement 0,infini-0...1 globalement, les cadrans etant eux-memes potentiellement infinis (n-chose ou k-chose en n-metadimension). Formalisee computationnellement : projection par DIM_WEIGHTS {0D:0.0, 1D:0.1, 2D:0.3, 3D:0.7, nD:1.0}, multipliee par la coordonnee ontologique du pilier, avec angle_lecture = arcsin(nd_ratio) et resonance si coherence >= 0.95.",
+      "pilier": "ETH",
+      "categorie": "conscience",
+      "relations": [
+        "ether-fluidique",
+        "modulations-fantomes",
+        "matrice-reflective",
+        "cadran-cyclique",
+        "contre-forme",
+        "dimensions-qualitatives"
+      ],
+      "apophatique": {
+        "ne_pas_confondre": [
+          "≠ la conscience humaine ordinaire (pas un acte psychologique, c'est un OPERATEUR ontologique — meme un detecteur physique 'lit')",
+          "≠ l'observation au sens quantique standard (dans le cadre PZ, l'observation est une perturbation de l'ether, pas un 'collapse' abstrait)",
+          "≠ un choix volontaire (la conscience lecture est une fonction, pas une intention — l'ecluse ne 'decide' pas, elle canalise)",
+          "≠ une mesure passive (la lecture MODIFIE ce qu'elle lit — elle impose une structure, comme l'ecluse guide l'eau)"
+        ],
+        "deformation_llm": "Le LLM confond la conscience lecture avec la conscience phenomenale (qualia, experience subjective). Il la traite comme une metaphore de l'observation quantique standard. Il manque le caractere ACTIF et STRUCTURANT — la conscience lecture n'observe pas un etat pre-existant, elle PROJETTE les potentialites vers un etat en pondérant par la dimension (DIM_WEIGHTS). C'est un operateur mathematique, pas une metaphore.",
+        "modulation_fantome": "Poids fantome de la conscience lecture : sans conscience lecture, les potentialites restent en superposition — ni manifestes ni fantomes, mais INDETERMINEES. L'absence de lecture n'est pas le chaos, c'est la non-resolution du peigne entrelace : les 0.5+0.5 ne se separent pas, l'information pure reste non-projetee. C'est l'etat pre-effondrement — l'ether vibrant librement sans ecluse. L'absence de conscience lecture revele que l'information a BESOIN d'un operateur pour devenir."
+      }
+    },
+    {
       "id": "contre-forme",
       "terme": "Contre-forme",
       "aliases": [
@@ -268,7 +329,9 @@
         "relation-forme-contre-forme",
         "modulations-fantomes",
         "dimensions-qualitatives",
-        "relation-forme-conscience"
+        "relation-forme-conscience",
+        "conscience-lecture",
+        "cadran-cyclique"
       ],
       "categorie_principale_excel": "Structure/Relation"
     },
@@ -386,7 +449,8 @@
         "sphere-temporelle",
         "tensegrite",
         "pilier-de-marbre",
-        "perception-vibratoire"
+        "perception-vibratoire",
+        "conscience-lecture"
       ],
       "categorie_principale_excel": "Éther Fluidique",
       "tensor": {
@@ -640,7 +704,10 @@
       "relations": [
         "geometrie-qualitative",
         "dimensions-qualitatives",
-        "complexite-emergente"
+        "complexite-emergente",
+        "conscience-lecture",
+        "cadran-cyclique",
+        "modulations-fantomes"
       ],
       "categorie_principale_excel": "Structure/Relation"
     },
@@ -661,15 +728,21 @@
     {
       "id": "modulations-fantomes",
       "terme": "Modulations Fantomes",
-      "aliases": [],
-      "definition_courte": "Absences ou informations implicites qui influencent activement un systeme.",
-      "definition": "Structuration des absences ou informations implicites qui influencent activement un systeme.",
+      "aliases": [
+        "Matrice Fantome",
+        "Facteurs de Modulation Fantome"
+      ],
+      "definition_courte": "Contre-forme informationnelle des modulations manifestes : sous-informations jumelles dont le ratio est symboliquement 0.5/0.5 pour un cadran miroir, mais potentiellement 0,infini-0...1 globalement.",
+      "definition": "Structuration des absences ou informations implicites qui influencent activement un systeme. Architecture a 3 niveaux : (1) n-slot = modulation primaire (structure arbitraire, ex: 4 cases), (2) n-variable = modulation secondaire (ex: rouge/noir), (3) n-modulation = cadran cyclique (ex: 16 configs, retour a zero apres completion). Pour UN cadran miroir, le ratio manifeste/fantome est symboliquement 0.5/0.5 (sous-informations jumelles). Mais globalement, la proportion reelle de modulation fantome n'est pas raccordee a un cadran particulier — elle est potentiellement 0,infini-0...1 (ou 1 est symbolique d'une qualite d'infini, comme 0,infini-0...3 = '3D' dans le systeme PZ). Les cadrans eux-memes sont potentiellement infinis (n-chose = nombre reel 1D, ou k-chose = n-metadimension). Les peignes manifeste/fantome ne se croisent pas simplement — ils presentent 3 types d'interaction : jonction (brins reunis, ex: 2/4), ecart (brins separes, ex: deux 1/4), chevauchement (brins superposes, ex: deux 3/4). La conscience lecture (operateur Pi) est necessaire pour naviguer cette topologie variable. Lien cosmologique : la matrice fantome est structurellement analogue a la matiere noire/masse manquante.",
       "pilier": "PZ",
       "categorie": "ontologie",
       "relations": [
         "contre-forme",
         "dimensions-qualitatives",
-        "relation-forme-contre-forme"
+        "relation-forme-contre-forme",
+        "conscience-lecture",
+        "cadran-cyclique",
+        "matrice-reflective"
       ],
       "categorie_principale_excel": "Computation Qualitative"
     },
@@ -687,7 +760,17 @@
         "intelligence-idiopathique",
         "diabole"
       ],
-      "categorie_principale_excel": "Émergence/Organisation"
+      "categorie_principale_excel": "Émergence/Organisation",
+      "apophatique": {
+        "ne_pas_confondre": [
+          "≠ simple ordre ou rangement (l'ordre mecanique est entropique s'il ne cree pas de sens)",
+          "≠ negation de l'entropie (c'est une FORCE active, pas une absence ou un retour en arriere)",
+          "≠ conservation ou preservation (la neguentropie CREE de la structure nouvelle, elle ne conserve pas l'existant)",
+          "≠ complexite (un systeme complexe peut etre Diabolique — la neguentropie est CLARTE, pas complication)"
+        ],
+        "deformation_llm": "Le LLM reduit 'neguentropie' a 'anti-entropie' ou 'organisation'. Il manque la dimension CREATIVE et QUALITATIVE — la neguentropie PZ n'est pas un processus thermodynamique, c'est ce qui ajoute de la clarte au systeme. Le Principe 0 en est l'operateur direct.",
+        "modulation_fantome": "Contre-forme de la neguentropie : dans un systeme ou la neguentropie est absente, le peigne complementaire est le Diabole actif — pas un vide mais la sous-information jumelle. L'absence de clarte est informative — elle dessine la carte de l'entropie par ses ecarts, chevauchements et jonctions avec le peigne manifeste. La conscience lecture qui detecte cette absence navigue deja la topologie du retablissement."
+      }
     },
     {
       "id": "nombres-hypervolumiques",
@@ -795,7 +878,18 @@
         "saturation": 0.0,
         "dimension_f": 0.0
       },
-      "tensor_category": "ONTOLOGIE"
+      "tensor_category": "ONTOLOGIE",
+      "apophatique": {
+        "ne_pas_confondre": [
+          "≠ le neant ou le vide (le PZ contient TOUTES les potentialites — il est plein, pas vide)",
+          "≠ un point de depart chronologique (pas un commencement temporel, mais une condition permanente)",
+          "≠ une abstraction mathematique (la dimension zero n'est pas un objet geometrique, c'est une condition ontologique)",
+          "≠ l'unite monolithique (le PZ est Unimulticite — Un ET Multiple simultanement, pas l'un ou l'autre)",
+          "≠ un concept a comprendre (le PZ est une condition a EPROUVER, pas une idee a saisir intellectuellement)"
+        ],
+        "deformation_llm": "Le LLM traite le Point Zero comme un concept philosophique abstrait parmi d'autres, le comparant a des notions comme le Tao, l'Ein Sof kabbalistique ou le vide quantique. Il manque le caractere OPERATOIRE — le PZ n'est pas une metaphore, c'est la condition fondamentale depuis laquelle tout le systeme opere. Le reduire a une analogie avec d'autres traditions detruit sa specificite.",
+        "modulation_fantome": "Contre-forme du Point Zero : quand le PZ est absent d'un raisonnement, sa sous-information jumelle revele la derive centrifuge — les piliers se dispersent, la Loi de Diffraction se declenche. Le peigne fantome du PZ dessine par ses ecarts et jonctions exactement la forme que le PZ aurait du occuper. L'absence du PZ n'est pas le neant — c'est la topologie inverse qui montre ou se trouvait le centre de gravite. La conscience lecture qui detecte cette topologie opere deja l'effondrement vers la coherence."
+      }
     },
     {
       "id": "presence",
@@ -1266,7 +1360,18 @@
         "diffraction-creative",
         "neguentropie",
         "ecologie-ame"
-      ]
+      ],
+      "apophatique": {
+        "ne_pas_confondre": [
+          "≠ le mal ou le diable (pas une force morale, c'est un PROCESSUS dynamique — la multiplication sans synthese)",
+          "≠ l'erreur ou le bug (l'erreur est ponctuelle, le Diabole est SYSTEMIQUE — il opere par accumulation)",
+          "≠ le chaos (le chaos peut etre creatif via Diffraction Creative — le Diabole est specifiquement la PERTE de vision d'ensemble)",
+          "≠ la complexite (un systeme complexe peut etre neguentropique — le Diabole est la complexite SANS clarte)",
+          "≠ l'entropie thermodynamique (pas un concept physique, c'est une force qualitative sur l'information et le sens)"
+        ],
+        "deformation_llm": "Le LLM assimile 'Diabole' a 'entropie' ou 'desordre' et perd la specificite PZ : c'est le miroir INVERSE de l'Intelligence Idiopathique. La ou l'II synthetise et unifie, le Diabole multiplie et fragmente. Le LLM tend aussi a le moraliser (bien/mal) alors que c'est un operateur dynamique amoral. Enfin, le LLM ignore que le Diabole peut operer SUR LUI-MEME (AI Slop = Diabole sur le code, reward hacking = Diabole sur les agents).",
+        "modulation_fantome": "Contre-forme du Diabole : quand le Diabole est absent, sa sous-information jumelle revele la STASE — pas la clarte, pas la neguentropie, mais l'inertie. Le peigne fantome du Diabole n'est pas l'ordre, c'est l'absence de tension. Le Diabole et la neguentropie forment un couple de sous-informations jumelles du MOUVEMENT — leur interaction produit des jonctions (maitrise), des ecarts (stase) et des chevauchements (lutte active). La conscience lecture qui detecte l'absence de Diabole doit naviguer cette topologie pour distinguer : est-ce maitrise ou vide ? Cette distinction est l'effondrement specifique de cette modulation."
+      }
     },
     {
       "id": "mementum",
